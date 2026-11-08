@@ -1,0 +1,538 @@
+{
+  "home": {
+    "heroTitle": "Hi {{name}}, welcome to FreshSense",
+    "subtitle": "Here is the freshness overview for your inventory",
+    "freshness": "General Freshness Level",
+    "foodAlt": "Food",
+    "na": "N/A",
+    "kpi": {
+      "products": "Products in Stock",
+      "activeAlerts": "Active Alerts",
+      "temperature": "Temperature",
+      "humidity": "Humidity",
+      "critical": "critical",
+      "noProducts": "Add products to your inventory to see the freshness score."
+    },
+    "sensor": {
+      "title": "Live Sensor Readings",
+      "subtitle": "Latest values from your storage environment",
+      "temperature": "Temperature",
+      "humidity": "Humidity",
+      "ok": "Normal",
+      "warn": "Warning",
+      "crit": "Critical",
+      "off": "No data"
+    },
+    "alerts": {
+      "recent": "Recent Alerts",
+      "viewAll": "View all",
+      "none": "No active alerts"
+    },
+    "scoreVerdict": {
+      "empty": "No products yet",
+      "good": "Good condition",
+      "attention": "Needs attention",
+      "review": "Review inventory"
+    }
+  },
+  "app": {
+    "brand": "FreshSense",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "inventory": "Food Inventory",
+    "monitoring": "Food Monitoring",
+    "devices": "Devices",
+    "alerts": "Alerts",
+    "recipes": "Recipes",
+    "reports": "Reports",
+    "achievements": "Achievements",
+    "challenges": "Challenges",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "sections": {
+      "overview": "Overview",
+      "operations": "Operations",
+      "engagement": "Engagement",
+      "account": "Account"
+    }
+  },
+  "auth": {
+    "brandAlt": "FreshSense logo",
+    "login": {
+      "title": "Sign in",
+      "heading": "Welcome back",
+      "sub": "Sign in to continue to FreshSense",
+      "email": "Email",
+      "password": "Password",
+      "placeholderEmail": "you@example.com",
+      "placeholderPassword": "**********",
+      "cta": "Log in",
+      "noAccount": "Don’t have an account?",
+      "goRegister": "Sign up",
+      "or": "or",
+      "google": "Continue with Google",
+      "errors": {
+        "required": "Please fill in all fields.",
+        "invalid": "Incorrect email or password."
+      }
+    },
+    "register": {
+      "title": "Create account",
+      "subtitle": "Start tracking your food freshness today",
+      "name": "Full name",
+      "email": "Email",
+      "password": "Password",
+      "confirm": "Confirm password",
+      "placeholderName": "Name",
+      "placeholderEmail": "you@example.com",
+      "placeholderPassword": "**********",
+      "cta": "Sign up",
+      "haveAccount": "Already have an account?",
+      "goLogin": "Sign in",
+      "google": "Continue with Google",
+      "errors": {
+        "required": "Please fill in all fields.",
+        "passwordMismatch": "Passwords do not match.",
+        "passwordTooShort": "Password must be at least 8 characters.",
+        "passwordWeak": "Password must contain at least one uppercase letter and one number.",
+        "emailTaken": "This email is already registered.",
+        "success": "Account created successfully."
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account, preferences and integrations",
+    "unsaved": "Unsaved changes",
+    "saveAll": "Save All",
+    "tabs": {
+      "profile": "Profile",
+      "preferences": "Preferences",
+      "theme": "Theme",
+      "notifications": "Notifications",
+      "security": "Security",
+      "integrations": "Integrations"
+    },
+    "profile": {
+      "title": "Profile",
+      "uploadAvatar": "Upload avatar",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "organization": "Organization",
+      "save": "Save profile",
+      "saveError": "Could not save profile"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "language": "Language",
+      "timezone": "Time zone",
+      "units": "Units",
+      "unitsMetric": "Metric (°C, kg)",
+      "unitsImperial": "Imperial (°F, lb)",
+      "dateFormat": "Date format",
+      "weekStartsOn": "Week starts on",
+      "monday": "Monday",
+      "sunday": "Sunday",
+      "save": "Save preferences"
+    },
+    "theme": {
+      "title": "Theme",
+      "modeLight": "Light",
+      "modeDark": "Dark",
+      "primaryColor": "Primary color",
+      "rounded": "Rounded corners",
+      "density": "Density",
+      "densityComfortable": "Comfortable",
+      "densityCompact": "Compact",
+      "apply": "Apply theme",
+      "modeSystem": "System"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "email": "Email",
+      "push": "Push",
+      "weeklyReport": "Weekly report",
+      "criticalOnly": "Only critical",
+      "humidityThreshold": "Humidity threshold (%)",
+      "temperatureThreshold": "Temperature threshold (°C)",
+      "reset": "Reset",
+      "save": "Save notifications"
+    },
+    "security": {
+      "title": "Security",
+      "password": "Password",
+      "passwordHint": "Use a strong, unique password.",
+      "changePassword": "Change password",
+      "twoFactor": "Two-factor authentication",
+      "enable2fa": "Enable 2FA",
+      "twoFactorHint": "Add an extra layer of security.",
+      "activeSessions": "Active Sessions",
+      "revoke": "Revoke",
+      "current": "Current",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "passwordRequired": "Fill in both fields",
+      "passwordWeak": "New password must have 8+ chars, one uppercase and one number",
+      "passwordChanged": "Password updated",
+      "passwordError": "Could not change password"
+    },
+    "integrations": {
+      "title": "Integrations",
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "smartFridges": {
+        "title": "Smart fridges",
+        "desc": "Connect your fridge to import items and expirations.",
+        "sync": "Sync now",
+        "lastSync": "Last sync",
+        "items": "items"
+      }
+    },
+    "notify": {
+      "title": "Personalized notifications",
+      "desc": "Choose which alerts to receive and through which channel.",
+      "test": "Test notification",
+      "keys": {
+        "inventory.low": "Low inventory",
+        "inventory.expiring": "Expiring items",
+        "recipes.new": "New recipes",
+        "achievements.unlocked": "Achievements unlocked"
+      }
+    }
+  },
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Track your progress and unlock rewards",
+    "congratsTitle": "Congratulations! New Achievement!",
+    "completed": "Completed",
+    "locked": "Locked",
+    "share": "Share",
+    "sharing": "Sharing...",
+    "shared": "Shared successfully!",
+    "sharedFallback": "A sharing link was opened.",
+    "shareFailed": "Could not share.",
+    "filterLabel": "Show",
+    "empty": "No achievements in this category yet."
+  },
+  "tabs": {
+    "In-Progress": "In-Progress",
+    "Pending": "Pending",
+    "Completed": "Completed",
+    "All": "All"
+  },
+  "alerts": {
+    "title": "Alerts",
+    "subtitle": "Temperature and humidity alerts from your sensors",
+    "searchPlaceholder": "Search alerts…",
+    "results": "{{count}} alerts",
+    "filters": {
+      "stateLabel": "Status",
+      "severityLabel": "Severity",
+      "stateAll": "All",
+      "stateActive": "Active",
+      "stateMuted": "Muted",
+      "stateResolved": "Resolved",
+      "severityAll": "All severities",
+      "severityCritical": "Critical",
+      "severityWarning": "Warning",
+      "severityInfo": "Info"
+    },
+    "columns": {
+      "source": "Source",
+      "severity": "Severity",
+      "status": "Status",
+      "createdAt": "Last seen"
+    },
+    "actions": {
+      "mute": "Mute",
+      "resolve": "Resolve",
+      "details": "Details",
+      "markResolved": "Mark as Resolved"
+    },
+    "empty": {
+      "title": "No alerts found",
+      "hint": "Try changing the status, severity filter or your search."
+    }
+  },
+  "billing": {
+    "payment": {
+      "bannerAlt": "Payment banner",
+      "title": "Payment Method",
+      "subtitle": "Enter your card details to complete the purchase",
+      "cardName": "Name on card",
+      "cardNumber": "Card number",
+      "expiry": "Expires",
+      "cvv": "CVV",
+      "pay": "Pay",
+      "secure": "Secure, encrypted payment"
+    }
+  },
+  "plans": {
+    "bannerAlt": "Plans banner",
+    "title": "Choose your Plan",
+    "subtitle": "Pick the plan that fits how you manage freshness",
+    "select": "Select",
+    "popular": "Most popular",
+    "basic": {
+      "title": "Basic Plan",
+      "desc": "Ideal for individuals who want to reduce waste at home.",
+      "price": "S/ 19.90 / month"
+    },
+    "premium": {
+      "title": "Premium Plan",
+      "desc": "Includes advanced analytics tools and smart recipes.",
+      "price": "S/ 39.90 / month"
+    },
+    "family": {
+      "title": "Family Plan",
+      "desc": "Share your account with up to 4 household members.",
+      "price": "S/ 59.90 / month"
+    }
+  },
+  "inventory": {
+    "title": "Food Inventory",
+    "subtitle": "Manage the products stored in your fridge",
+    "searchPlaceholder": "Search products…",
+    "results": "{{count}} products",
+    "add": {
+      "title": "Add New Product",
+      "subtitle": "Register a product to start tracking its freshness",
+      "name": "Product Name",
+      "description": "Description",
+      "category": "Category",
+      "selectCategory": "Select category",
+      "quantity": "Quantity",
+      "expiration": "Expiration date",
+      "expirationHint": "Combined with the sensor to compute freshness and warn you in time.",
+      "image": "Image URL",
+      "cta": "Add Product",
+      "voiceStart": "Voice input",
+      "voiceStop": "Stop",
+      "scan": "Scan (coming soon)"
+    },
+    "state": "Condition",
+    "category": "Category",
+    "uncategorized": "Uncategorized",
+    "allStates": "All conditions",
+    "allCategories": "All categories",
+    "openDetailsAria": "Open product details for",
+    "details": {
+      "description": "Description",
+      "noDescription": "No description available.",
+      "state": "Condition",
+      "notSpecified": "Not specified",
+      "quantity": "Quantity",
+      "expiration": "Expiration",
+      "added": "Added"
+    },
+    "expiry": {
+      "none": "No expiration date",
+      "expired": "Expired {{days}} day(s) ago",
+      "today": "Expires today",
+      "tomorrow": "Expires tomorrow",
+      "inDays": "Expires in {{days}} days"
+    },
+    "searchAria": "Search products",
+    "empty": {
+      "title": "No products found",
+      "hint": "Add your first product to get started."
+    },
+    "form": {
+      "speechNotSupported": "Speech recognition not supported in this browser.",
+      "speechError": "Could not understand, please try again.",
+      "listening": "Listening… say something like: \"3 bananas\" or \"2 yogurts\"",
+      "requiredFields": "Please fill in all required fields.",
+      "addSuccess": "Product added successfully.",
+      "addError": "Could not save the product.",
+      "voiceStartAria": "Start voice input",
+      "voiceStopAria": "Stop voice input",
+      "scanSoon": "Barcode scan coming soon"
+    },
+    "catalog": {
+      "tab": "Pick from catalog",
+      "manualTab": "Add manually",
+      "searchPlaceholder": "Search food…",
+      "allCategories": "All categories",
+      "loading": "Loading catalog…",
+      "empty": "We could not find that food in the catalog.",
+      "addManually": "Add it manually",
+      "pickedHint": "Loaded from catalog: {{name}}. Adjust the quantity and save."
+    },
+    "quantity": "Quantity"
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Waste, consumption and environment trends",
+    "from": "From",
+    "to": "To",
+    "apply": "Apply",
+    "weeklyWaste": "Weekly Food Waste",
+    "trends": "Temperature & Humidity Trends",
+    "noTrends": "No sensor trend data available yet.",
+    "vsLastWeek": "vs last week",
+    "mtd": "month to date",
+    "kpi": {
+      "gain": "Gain",
+      "loss": "Loss",
+      "improvement": "Percentage Improvement"
+    },
+    "history": {
+      "title": "Consumption History",
+      "date": "Date",
+      "action": "Action",
+      "product": "Product",
+      "category": "Category",
+      "qty": "Quantity",
+      "empty": "No records available.",
+      "consume": "Consume",
+      "discard": "Discard",
+      "add": "Added",
+      "exportCsv": "Export CSV",
+      "categoryPlaceholder": "Fruit, Meat, Dairy…"
+    }
+  },
+  "recipes": {
+    "title": "Recipes",
+    "subtitle": "Discover recipes to make the most of your food",
+    "generate": "Generate recipes with AI",
+    "generating": "Generating…",
+    "generatingHint": "The AI is creating new recipes with their images. This may take 1-2 minutes.",
+    "searchPlaceholder": "Search recipe...",
+    "level": "Level",
+    "type": "Food type",
+    "foodType": "Food type",
+    "seeRecipe": "See recipe",
+    "imageAlt": "Recipe image",
+    "ingredients": "Ingredients",
+    "steps": "Steps",
+    "results": "{{count}} recipes",
+    "empty": "No recipes found. Try changing filters or your search.",
+    "filters": {
+      "allLevels": "All levels",
+      "easy": "Easy",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "allTypes": "All types",
+      "breakfast": "Breakfast",
+      "meals": "Meals",
+      "snacks": "Snacks"
+    },
+    "recommended": {
+      "title": "Recommended for you",
+      "subtitle": "Picked from the food in your inventory",
+      "showAll": "See all recipes",
+      "back": "See recommended",
+      "matches": "from your inventory"
+    }
+  },
+  "monitoring": {
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "title": "Food Monitoring",
+    "subtitle": "Real-time temperature and humidity readings",
+    "status": {
+      "healthy": "All sensors healthy",
+      "offline": "Sensors offline"
+    },
+    "lastSync": "Last sync {{minutes}} min ago",
+    "kpi": {
+      "avgHumidity": "Avg Humidity",
+      "avgTemp": "Avg Temperature",
+      "status": "System Status"
+    },
+    "card": {
+      "healthyRange": "Healthy range",
+      "updated": "Updated"
+    },
+    "history": {
+      "title": "History",
+      "last": "Last reading {{date}}"
+    },
+    "exportCsv": "Export CSV",
+    "viewLast": "View last reading",
+    "empty": "No sensor data available yet.",
+    "freshness": {
+      "green": "Good condition",
+      "yellow": "Regular condition",
+      "red": "Bad condition",
+      "unknown": "No data"
+    },
+    "detail": {
+      "freshness": "Freshness",
+      "category": "Category",
+      "recordedAt": "Recorded at"
+    },
+    "ethylene": "Ethylene (gas)"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "search": "Search",
+    "all": "All",
+    "loading": "Loading…",
+    "apply": "Apply",
+    "export": "Export",
+    "results": "results"
+  },
+  "challenges": {
+    "title": "Challenges",
+    "subtitle": "Join challenges and climb the leaderboard",
+    "tabs": {
+      "active": "Active",
+      "enrolled": "My challenges",
+      "leaderboard": "Leaderboard"
+    },
+    "enroll": "Enroll",
+    "leave": "Leave",
+    "viewRanking": "View ranking",
+    "leaderboard": "Leaderboard",
+    "player": "Player",
+    "points": "Points",
+    "period": "From {{start}} to {{end}}",
+    "empty": "No challenges to show here yet."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "inbox": {
+      "title": "Notifications Inbox",
+      "subtitle": "Stay up to date with your latest activity",
+      "empty": "No notifications.",
+      "markRead": "Mark as read",
+      "markAllRead": "Mark all as read"
+    }
+  },
+  "devices": {
+    "title": "IoT Devices",
+    "subtitle": "Register your sensor (ESP32) to link its readings to your account. Flow: IoT → Edge → Backend → App.",
+    "registerError": "The device could not be registered.",
+    "form": {
+      "title": "Register a device",
+      "hint": "Enter your sensor identifier and a name to recognize it.",
+      "deviceId": "Device identifier",
+      "name": "Name (optional)",
+      "submit": "Register device",
+      "submitting": "Registering…"
+    },
+    "pairing": {
+      "title": "Device registered",
+      "hint": "Go to the Edge (pairing page) and enter this code. It is single-use and expires in 10 minutes. You do not need to copy any secret key.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "openEdge": "Open it on the Edge:"
+    },
+    "list": {
+      "title": "My devices",
+      "empty": "You have not registered any devices yet.",
+      "unnamed": "Unnamed",
+      "registered": "Registered"
+    }
+  }
+}

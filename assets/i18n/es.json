@@ -1,0 +1,538 @@
+{
+  "home": {
+    "heroTitle": "Hola {{name}}, ¡bienvenido/a a FreshSense!",
+    "subtitle": "Este es el resumen de frescura de tu inventario",
+    "freshness": "Nivel general de frescura",
+    "foodAlt": "Comida",
+    "na": "N/D",
+    "kpi": {
+      "products": "Productos en Stock",
+      "activeAlerts": "Alertas Activas",
+      "temperature": "Temperatura",
+      "humidity": "Humedad",
+      "critical": "crítica(s)",
+      "noProducts": "Agrega productos a tu inventario para ver el nivel de frescura."
+    },
+    "sensor": {
+      "title": "Lecturas de Sensores en Vivo",
+      "subtitle": "Últimos valores de tu entorno de almacenamiento",
+      "temperature": "Temperatura",
+      "humidity": "Humedad",
+      "ok": "Normal",
+      "warn": "Advertencia",
+      "crit": "Crítico",
+      "off": "Sin datos"
+    },
+    "alerts": {
+      "recent": "Alertas Recientes",
+      "viewAll": "Ver todas",
+      "none": "Sin alertas activas"
+    },
+    "scoreVerdict": {
+      "empty": "Sin productos aún",
+      "good": "Buen estado",
+      "attention": "Necesita atención",
+      "review": "Revisar inventario"
+    }
+  },
+  "app": {
+    "brand": "FreshSense",
+    "login": "Ingresar",
+    "logout": "Salir",
+    "language": "Idioma",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "inventory": "Inventario",
+    "monitoring": "Monitoreo",
+    "devices": "Dispositivos",
+    "alerts": "Alertas",
+    "recipes": "Recetas",
+    "reports": "Reportes",
+    "achievements": "Logros",
+    "challenges": "Desafíos",
+    "notifications": "Notificaciones",
+    "settings": "Configuración",
+    "sections": {
+      "overview": "Resumen",
+      "operations": "Operaciones",
+      "engagement": "Participación",
+      "account": "Cuenta"
+    }
+  },
+  "auth": {
+    "brandAlt": "Logo de FreshSense",
+    "login": {
+      "title": "Inicia sesión",
+      "heading": "Bienvenido de vuelta",
+      "sub": "Inicia sesión para continuar en FreshSense",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "placeholderEmail": "tucorreo@ejemplo.com",
+      "placeholderPassword": "**********",
+      "cta": "Iniciar sesión",
+      "noAccount": "¿No tienes una cuenta?",
+      "goRegister": "Regístrate",
+      "or": "o",
+      "google": "Continuar con Google",
+      "errors": {
+        "required": "Por favor completa todos los campos.",
+        "invalid": "Correo o contraseña incorrectos."
+      }
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "subtitle": "Empieza a monitorear la frescura de tus alimentos hoy",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "confirm": "Confirmar contraseña",
+      "placeholderName": "Nombre",
+      "placeholderEmail": "tucorreo@ejemplo.com",
+      "placeholderPassword": "**********",
+      "cta": "Registrarse",
+      "haveAccount": "¿Ya tienes una cuenta?",
+      "goLogin": "Inicia sesión",
+      "google": "Continuar con Google",
+      "errors": {
+        "required": "Por favor completa todos los campos.",
+        "passwordMismatch": "Las contraseñas no coinciden.",
+        "passwordTooShort": "La contraseña debe tener al menos 8 caracteres.",
+        "passwordWeak": "La contraseña debe contener al menos una mayúscula y un número.",
+        "emailTaken": "El correo ya está registrado.",
+        "success": "Cuenta creada correctamente."
+      }
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Administra tu cuenta, preferencias e integraciones",
+    "unsaved": "Cambios sin guardar",
+    "saveAll": "Guardar todo",
+    "tabs": {
+      "profile": "Perfil",
+      "preferences": "Preferencias",
+      "theme": "Tema",
+      "notifications": "Notificaciones",
+      "security": "Seguridad",
+      "integrations": "Integraciones"
+    },
+    "profile": {
+      "title": "Perfil",
+      "uploadAvatar": "Subir avatar",
+      "name": "Nombre",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "organization": "Organización",
+      "save": "Guardar perfil",
+      "saveError": "No se pudo guardar el perfil"
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "language": "Idioma",
+      "timezone": "Zona horaria",
+      "units": "Unidades",
+      "unitsMetric": "Métrico (°C, kg)",
+      "unitsImperial": "Imperial (°F, lb)",
+      "dateFormat": "Formato de fecha",
+      "weekStartsOn": "La semana empieza en",
+      "monday": "Lunes",
+      "sunday": "Domingo",
+      "save": "Guardar preferencias"
+    },
+    "theme": {
+      "title": "Tema",
+      "modeLight": "Claro",
+      "modeDark": "Oscuro",
+      "primaryColor": "Color principal",
+      "rounded": "Esquinas redondeadas",
+      "density": "Densidad",
+      "densityComfortable": "Cómodo",
+      "densityCompact": "Compacto",
+      "apply": "Aplicar tema",
+      "modeSystem": "Sistema"
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "email": "Correo",
+      "push": "Push",
+      "weeklyReport": "Reporte semanal",
+      "criticalOnly": "Solo críticas",
+      "humidityThreshold": "Umbral de humedad (%)",
+      "temperatureThreshold": "Umbral de temperatura (°C)",
+      "reset": "Reiniciar",
+      "save": "Guardar notificaciones"
+    },
+    "security": {
+      "title": "Seguridad",
+      "password": "Contraseña",
+      "passwordHint": "Usa una contraseña fuerte y única.",
+      "changePassword": "Cambiar contraseña",
+      "twoFactor": "Autenticación de dos factores",
+      "enable2fa": "Activar 2FA",
+      "twoFactorHint": "Agrega una capa extra de seguridad.",
+      "activeSessions": "Sesiones activas",
+      "revoke": "Revocar",
+      "current": "Actual",
+      "currentPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "passwordRequired": "Completa ambos campos",
+      "passwordWeak": "La nueva contraseña debe tener 8+ caracteres, una mayúscula y un número",
+      "passwordChanged": "Contraseña actualizada",
+      "passwordError": "No se pudo cambiar la contraseña"
+    },
+    "integrations": {
+      "title": "Integraciones",
+      "connect": "Conectar",
+      "disconnect": "Desconectar",
+      "smartFridges": {
+        "title": "Refrigeradores inteligentes",
+        "desc": "Conecta tu refrigerador para importar productos y vencimientos.",
+        "sync": "Sincronizar ahora",
+        "lastSync": "Última sincronización",
+        "items": "ítems"
+      }
+    },
+    "notify": {
+      "title": "Notificaciones personalizadas",
+      "desc": "Elige qué alertas recibir y por qué canal.",
+      "test": "Probar notificación",
+      "keys": {
+        "inventory.low": "Inventario bajo",
+        "inventory.expiring": "Productos por vencer",
+        "recipes.new": "Nuevas recetas",
+        "achievements.unlocked": "Logros desbloqueados"
+      }
+    }
+  },
+  "achievements": {
+    "title": "Logros",
+    "subtitle": "Sigue tu progreso y desbloquea recompensas",
+    "congratsTitle": "¡Felicidades! ¡Nuevo logro!",
+    "completed": "Completado",
+    "locked": "Bloqueado",
+    "share": "Compartir",
+    "sharing": "Compartiendo...",
+    "shared": "¡Compartido correctamente!",
+    "sharedFallback": "Se abrió un enlace para compartir.",
+    "shareFailed": "No se pudo compartir.",
+    "filterLabel": "Mostrar",
+    "empty": "Aún no hay logros en esta categoría."
+  },
+  "tabs": {
+    "In-Progress": "En progreso",
+    "Pending": "Pendiente",
+    "Completed": "Completado",
+    "All": "Todo"
+  },
+  "alerts": {
+    "title": "Alertas",
+    "subtitle": "Alertas de temperatura y humedad de tus sensores",
+    "searchPlaceholder": "Buscar alertas…",
+    "results": "{{count}} alertas",
+    "filters": {
+      "stateLabel": "Estado",
+      "severityLabel": "Severidad",
+      "stateAll": "Todas",
+      "stateActive": "Activas",
+      "stateMuted": "Silenciadas",
+      "stateResolved": "Resueltas",
+      "severityAll": "Todas las severidades",
+      "severityCritical": "Críticas",
+      "severityWarning": "Advertencias",
+      "severityInfo": "Informativas"
+    },
+    "columns": {
+      "source": "Fuente",
+      "severity": "Severidad",
+      "status": "Estado",
+      "createdAt": "Última vez"
+    },
+    "actions": {
+      "mute": "Silenciar",
+      "resolve": "Resolver",
+      "details": "Detalles",
+      "markResolved": "Marcar como resuelta"
+    },
+    "empty": {
+      "title": "No se encontraron alertas",
+      "hint": "Prueba cambiando el estado, el filtro de severidad o tu búsqueda."
+    }
+  },
+  "billing": {
+    "payment": {
+      "bannerAlt": "Banner de pago",
+      "title": "Método de Pago",
+      "subtitle": "Ingresa los datos de tu tarjeta para completar la compra",
+      "cardName": "Nombre en la tarjeta",
+      "cardNumber": "Número de tarjeta",
+      "expiry": "Expira",
+      "cvv": "CVV",
+      "pay": "Pagar",
+      "secure": "Pago seguro y cifrado"
+    }
+  },
+  "plans": {
+    "bannerAlt": "Banner de planes",
+    "title": "Elige tu Plan",
+    "subtitle": "Elige el plan que se adapta a cómo gestionas la frescura",
+    "select": "Seleccionar",
+    "popular": "Más popular",
+    "basic": {
+      "title": "Plan Básico",
+      "desc": "Ideal para usuarios individuales que desean reducir desperdicios en casa.",
+      "price": "S/ 19.90 / mes"
+    },
+    "premium": {
+      "title": "Plan Premium",
+      "desc": "Incluye herramientas avanzadas de análisis y recetas inteligentes.",
+      "price": "S/ 39.90 / mes"
+    },
+    "family": {
+      "title": "Plan Familiar",
+      "desc": "Comparte tu cuenta con hasta 4 miembros de tu hogar.",
+      "price": "S/ 59.90 / mes"
+    }
+  },
+  "inventory": {
+    "title": "Inventario de Alimentos",
+    "subtitle": "Administra los productos guardados en tu refrigerador",
+    "searchPlaceholder": "Buscar productos…",
+    "results": "{{count}} productos",
+    "add": {
+      "title": "Agregar nuevo producto",
+      "subtitle": "Registra un producto para comenzar a monitorear su frescura",
+      "name": "Nombre del producto",
+      "description": "Descripción",
+      "category": "Categoría",
+      "selectCategory": "Selecciona categoría",
+      "quantity": "Cantidad",
+      "expiration": "Fecha de vencimiento",
+      "expirationHint": "Se combina con el sensor para calcular la frescura y avisarte a tiempo.",
+      "image": "URL de imagen",
+      "cta": "Agregar producto",
+      "voiceStart": "Entrada por voz",
+      "voiceStop": "Detener",
+      "scan": "Escanear (próximamente)"
+    },
+    "state": "Condición",
+    "category": "Categoría",
+    "uncategorized": "Sin categoría",
+    "allStates": "Todas las condiciones",
+    "allCategories": "Todas las categorías",
+    "openDetailsAria": "Abrir detalles del producto",
+    "details": {
+      "description": "Descripción",
+      "noDescription": "Sin descripción.",
+      "state": "Condición",
+      "notSpecified": "No especificado",
+      "quantity": "Cantidad",
+      "expiration": "Vencimiento",
+      "added": "Agregado"
+    },
+    "expiry": {
+      "none": "Sin fecha de vencimiento",
+      "expired": "Vencido hace {{days}} día(s)",
+      "today": "Vence hoy",
+      "tomorrow": "Vence mañana",
+      "inDays": "Vence en {{days}} días"
+    },
+    "searchAria": "Buscar productos",
+    "empty": {
+      "title": "No se encontraron productos",
+      "hint": "Agrega tu primer producto para comenzar."
+    },
+    "form": {
+      "speechNotSupported": "Reconocimiento de voz no compatible en este navegador.",
+      "speechError": "No pude escuchar bien, intenta de nuevo.",
+      "listening": "Escucha… di algo como: \"3 bananas\" o \"2 yogurts\"",
+      "requiredFields": "Completa los campos obligatorios.",
+      "addSuccess": "Producto agregado correctamente.",
+      "addError": "No se pudo guardar el producto.",
+      "voiceStartAria": "Iniciar entrada de voz",
+      "voiceStopAria": "Detener entrada de voz",
+      "scanSoon": "Escaneo de código de barras próximamente"
+    },
+    "catalog": {
+      "tab": "Elegir del catálogo",
+      "manualTab": "Agregar manualmente",
+      "searchPlaceholder": "Buscar alimento…",
+      "allCategories": "Todas las categorías",
+      "loading": "Cargando catálogo…",
+      "empty": "No encontramos ese alimento en el catálogo.",
+      "addManually": "Agregarlo manualmente",
+      "pickedHint": "Cargado del catálogo: {{name}}. Ajusta la cantidad y guarda."
+    },
+    "quantity": "Cantidad"
+  },
+  "reports": {
+    "title": "Reportes",
+    "subtitle": "Tendencias de desperdicio, consumo y ambiente",
+    "from": "Desde",
+    "to": "Hasta",
+    "apply": "Aplicar",
+    "weeklyWaste": "Desperdicio semanal de alimentos",
+    "trends": "Tendencias de Temperatura y Humedad",
+    "noTrends": "Aún no hay datos de tendencias de sensores.",
+    "vsLastWeek": "vs semana anterior",
+    "mtd": "mes hasta la fecha",
+    "kpi": {
+      "gain": "Ganancia",
+      "loss": "Pérdida",
+      "improvement": "Porcentaje de mejora"
+    },
+    "history": {
+      "title": "Historial de consumo",
+      "date": "Fecha",
+      "action": "Acción",
+      "product": "Producto",
+      "category": "Categoría",
+      "qty": "Cantidad",
+      "empty": "No hay registros disponibles.",
+      "consume": "Consumido",
+      "discard": "Descartado",
+      "add": "Agregado",
+      "exportCsv": "Exportar CSV",
+      "categoryPlaceholder": "Fruta, Carne, Lácteos…"
+    }
+  },
+  "recipes": {
+    "title": "Recetas",
+    "subtitle": "Descubre recetas para aprovechar al máximo tus alimentos",
+    "generate": "Generar recetas con IA",
+    "generating": "Generando…",
+    "generatingHint": "La IA está creando recetas nuevas con sus imágenes. Esto puede tardar 1-2 minutos.",
+    "searchPlaceholder": "Buscar receta...",
+    "level": "Nivel",
+    "type": "Tipo de comida",
+    "foodType": "Tipo de comida",
+    "seeRecipe": "Ver receta",
+    "imageAlt": "Imagen de la receta",
+    "ingredients": "Ingredientes",
+    "steps": "Pasos",
+    "results": "{{count}} recetas",
+    "empty": "No se encontraron recetas. Prueba cambiando los filtros o la búsqueda.",
+    "filters": {
+      "allLevels": "Todos los niveles",
+      "easy": "Fácil",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado",
+      "allTypes": "Todos los tipos",
+      "breakfast": "Desayuno",
+      "meals": "Comidas",
+      "snacks": "Snacks"
+    },
+    "recommended": {
+      "title": "Recomendadas para ti",
+      "subtitle": "Elegidas según los alimentos de tu inventario",
+      "showAll": "Ver todas las recetas",
+      "back": "Ver recomendadas",
+      "matches": "de tu inventario"
+    }
+  },
+  "monitoring": {
+    "temperature": "Temperatura",
+    "humidity": "Humedad",
+    "title": "Monitoreo de Alimentos",
+    "subtitle": "Lecturas de temperatura y humedad en tiempo real",
+    "status": {
+      "healthy": "Todos los sensores en buen estado",
+      "offline": "Sensores sin conexión"
+    },
+    "lastSync": "Última sincronización hace {{minutes}} min",
+    "kpi": {
+      "avgHumidity": "Humedad prom.",
+      "avgTemp": "Temp. prom.",
+      "status": "Estado del sistema"
+    },
+    "card": {
+      "healthyRange": "Rango saludable",
+      "updated": "Actualizado"
+    },
+    "history": {
+      "title": "Historial",
+      "last": "Última lectura {{date}}"
+    },
+    "exportCsv": "Exportar CSV",
+    "viewLast": "Ver última lectura",
+    "empty": "Aún no hay datos de sensores.",
+    "freshness": {
+      "green": "Buen estado",
+      "yellow": "Estado regular",
+      "red": "Mal estado",
+      "unknown": "Sin datos"
+    },
+    "detail": {
+      "freshness": "Frescura",
+      "category": "Categoría",
+      "recordedAt": "Fecha de lectura"
+    },
+    "ethylene": "Etileno (gas)"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "search": "Buscar",
+    "all": "Todo",
+    "loading": "Cargando…",
+    "apply": "Aplicar",
+    "export": "Exportar",
+    "results": "resultados"
+  },
+  "challenges": {
+    "title": "Desafíos",
+    "subtitle": "Únete a desafíos y escala la clasificación",
+    "tabs": {
+      "active": "Activos",
+      "enrolled": "Mis desafíos",
+      "leaderboard": "Clasificación"
+    },
+    "enroll": "Inscribirse",
+    "leave": "Salir",
+    "viewRanking": "Ver clasificación",
+    "leaderboard": "Clasificación",
+    "player": "Jugador",
+    "points": "Puntos",
+    "period": "Del {{start}} al {{end}}",
+    "empty": "Aún no hay desafíos para mostrar aquí."
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "inbox": {
+      "title": "Bandeja de notificaciones",
+      "subtitle": "Mantente al día con tu actividad reciente",
+      "empty": "No hay notificaciones.",
+      "markRead": "Marcar como leída",
+      "markAllRead": "Marcar todas como leídas"
+    }
+  },
+  "devices": {
+    "title": "Dispositivos IoT",
+    "subtitle": "Registra tu sensor (ESP32) para asociar sus lecturas a tu cuenta. Flujo: IoT → Edge → Backend → App.",
+    "registerError": "No se pudo registrar el dispositivo.",
+    "form": {
+      "title": "Registrar un dispositivo",
+      "hint": "Introduce el identificador de tu sensor y un nombre para reconocerlo.",
+      "deviceId": "Identificador del dispositivo",
+      "name": "Nombre (opcional)",
+      "submit": "Registrar dispositivo",
+      "submitting": "Registrando…"
+    },
+    "pairing": {
+      "title": "Dispositivo registrado",
+      "hint": "Ve al Edge (página de vinculación) e introduce este código. Es de un solo uso y caduca en 10 minutos. No necesitas copiar ninguna clave secreta.",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "openEdge": "Ábrelo en el Edge:"
+    },
+    "list": {
+      "title": "Mis dispositivos",
+      "empty": "Aún no has registrado dispositivos.",
+      "unnamed": "Sin nombre",
+      "registered": "Registrado"
+    }
+  }
+}
